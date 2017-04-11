@@ -1,0 +1,4 @@
+{
+    "API": "./server",
+	"PRESETS": "./static/presets"
+}
