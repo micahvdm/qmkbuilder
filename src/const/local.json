@@ -1,4 +1,4 @@
 {
-    "API": "./server",
-	"PRESETS": "./static/presets"
+    "API": "C:\Users\Micah\Documents\QMK",
+	"PRESETS": "C:\Users\Micah\Documents\QMK\static\presets"
 }
