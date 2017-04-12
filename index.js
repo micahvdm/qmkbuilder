@@ -1,13 +1,12 @@
 const fs = require('fs');
 const browserify = require('browserify');
-const watchify = require('watchify');
 const errorify = require('errorify');
 
 const b = browserify({
 		entries: [ './src/index.js' ],
 		cache: {},
 		packageCache: {},
-		plugin: [ watchify, errorify ]
+		plugin: [ errorify ]
 	})
 	.transform('babelify', {
 		presets: [ 'es2015', 'react' ]
